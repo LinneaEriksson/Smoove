@@ -6,9 +6,7 @@ body {
   margin: 0px;
 }
 
-a {
-  text-decoration: none;
-}
+/* Nav and hamburger-menu */
 
 .topnav {
   overflow: hidden;
@@ -29,7 +27,7 @@ a {
 }
 
 .topnav a.icon {
-  background: black;
+  background:black;
   display: block;
   position: absolute;
   right: 0;
