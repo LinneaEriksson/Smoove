@@ -12,34 +12,37 @@ a {
   text-decoration: none;
 }
 
-.HamburgerMenu {
-  display: inline-block;
-  justify-content: space-evenly;
+.topnav {
+  overflow: hidden;
+  background-color:black;
   position: relative;
-  margin-right: 10px;
-  margin-left: 10px;
-  width: 5vh;
-  height: 5vh;
 }
 
-#MenuLinks a {
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: white;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
-  display: inline-block;
+  display: block;
 }
 
-.HamburgerMenu a:hover {
-  background-color: #ddd;
-  color: black;
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 
-.Logo {
-  font-size: large;
-  font-weight: bold;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+.topnav a.icon:hover {
+    background-color: #333;
 }
+
+
 
 .HeadPicture {
   width: 100%;
