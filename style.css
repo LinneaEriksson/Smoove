@@ -59,6 +59,8 @@ a {
 
 .Container {
   position: relative;
+  width: 100%;
+  height: 100%;
 }
 
 .MainPicture {
@@ -68,8 +70,18 @@ a {
 
 .TextOverPicture {
   position: absolute;
+  bottom: 0px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .TextInBetween {
   text-align: center;
+}
+
+.MovingText {
+  font-size: 50px;
 }
