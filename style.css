@@ -25,7 +25,6 @@ a {
   text-decoration: none;
   font-size: 17px;
   display: inline-block;
-  
 }
 
 .HamburgerMenu a:hover {
@@ -86,4 +85,5 @@ a {
 
 .MovingText {
   font-size: 50px;
+  text-align: center;
 }
