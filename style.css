@@ -6,3 +6,14 @@
   width: 100%;
   margin: 0px;
 }
+
+.MainPicture {
+  width: 100%;
+  margin: 0px;
+}
+
+.SpaceBetween {
+  width: 100%;
+  height: 300px;
+  background-color: aqua;
+}
