@@ -30,9 +30,10 @@ body {
 }
 
 .Logo {
-font-size: large;
-font-weight: bold;
-font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: large;
+  font-weight: bold;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 .HeadPicture {
@@ -40,15 +41,29 @@ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans
   margin: 0px;
 }
 
+.SpaceBetween {
+  width: 100%;
+  height: 200px;
+  background-color: rgb(255, 255, 255);
+  margin: 0px;
+}
+
+.JoinTheSmoovement {
+  color: black;
+  font-size: 50px;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.Container {
+  position: relative;
+}
+
 .MainPicture {
   width: 100%;
   margin: 0px;
 }
 
-.SpaceBetween {
-  width: 100%;
-  height: 200px;
-  background-color: aqua;
-  color: red;
-  margin: 0px;
+.TextOverPicture {
+  position: absolute;
 }
