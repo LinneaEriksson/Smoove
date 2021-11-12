@@ -69,3 +69,7 @@ a {
 .TextOverPicture {
   position: absolute;
 }
+
+.TextInBetween {
+  text-align: center;
+}
