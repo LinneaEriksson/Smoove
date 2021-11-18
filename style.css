@@ -6,13 +6,14 @@
 
 body {
   margin: 0px;
+  background-image: linear-gradient(red, yellow);
 }
 
 /* Nav and hamburger-menu */
 
 .topnav {
   overflow: hidden;
-  background-color:black;
+  background-color: black;
   position: relative;
 }
 
@@ -29,7 +30,7 @@ body {
 }
 
 .topnav a.icon {
-  background:black;
+  background: black;
   display: block;
   position: absolute;
   right: 0;
@@ -37,10 +38,8 @@ body {
 }
 
 .topnav a.icon:hover {
-    background-color: #333;
+  background-color: #333;
 }
-
-
 
 .HeadPicture {
   width: 100%;
