@@ -65,7 +65,7 @@ body {
   color: black;
   font-size: 24px;
   padding: 20px;
-  margin-top: 80px;
+  margin-top: 20px;
   margin-bottom: 80px;
   font-family: "Abel", sans-serif;
   text-align: center;
@@ -85,13 +85,19 @@ body {
   margin: 0px;
 }
 
+.HoverPicture {
+  width: 100%;
+  margin: 0px;
+}
+
 .TextOverPicture {
   display: flex;
   position: absolute;
   color: white;
   font-size: 22px;
   font-family: "Archivo Narrow", sans-serif;
-  padding: 20px;
+  padding-left: 20px;
+  padding-bottom: 30px;
 }
 
 .BigText {
