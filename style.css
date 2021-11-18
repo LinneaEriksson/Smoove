@@ -55,6 +55,10 @@ body {
   width: 100%;
   height: 100%;
   margin: 0px;
+  padding-top: 60px;
+  padding-bottom: 20px;
+  padding-right: 30px;
+  padding-left: 20px;
 }
 
 .JoinTheSmoovement {
@@ -93,9 +97,14 @@ body {
 .BigText {
   color: black;
   font-size: 36px;
+  margin-bottom: 0px;
+  font-family: "Abel", sans-serif;
   padding-left: 20px;
-  padding-right: 20px;
-  margin-top: 60px;
+}
+
+.FactsText {
+  color: black;
+  font-size: 36px;
   margin-bottom: 0px;
   font-family: "Abel", sans-serif;
 }
@@ -112,28 +121,24 @@ body {
   color: black;
   font-size: 18px;
   padding-left: 20px;
-  padding-right: 20px;
+  padding-right: 30px;
   margin-top: 0px;
+  padding-bottom: 40px;
   font-family: "Abel", sans-serif;
 }
-p {
-  /* padding: 20px; */
+
+.FactsAboutCar {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  column-gap: 5%;
+  row-gap: 15px;
 }
 
-.wares {
-  text-align: center;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 20px;
-}
-
-.wareItem {
+.FactItems {
   padding: 20px;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
 }
 
 .MovingText {
