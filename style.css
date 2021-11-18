@@ -10,7 +10,7 @@ body {
 }
 
 .test {
-  background-image: linear-gradient(#aaa7cd, #d3ad79);
+  background-image: linear-gradient(#aaa7cd, #e4cfd4, #d3ad79);
 }
 /* Nav and hamburger-menu */
 
@@ -87,7 +87,7 @@ body {
   color: white;
   font-size: 24px;
   font-family: "Archivo Narrow", sans-serif;
-  padding: 40px;
+  padding: 20px;
 }
 
 .BigText {
