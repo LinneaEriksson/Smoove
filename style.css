@@ -98,6 +98,12 @@ body {
   font-family: "Abel", sans-serif;
 }
 
+.SmallText {
+  color: black;
+  font-size: 12px;
+  font-family: "Abel", sans-serif;
+}
+
 .TextInBetween {
   /* text-align: center; Ej på denna? */
   color: black;
@@ -109,9 +115,19 @@ body {
   font-family: "Abel", sans-serif;
 }
 
+.wares {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20px;
+  border-style: solid;
+  border-color: gray;
+}
+
 .MovingText {
   font-size: 50px;
   text-align: center;
   margin-top: 100px;
-  margin-bottom: 2000px;
+  padding-bottom: 2000px;
 }
