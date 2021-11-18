@@ -72,8 +72,8 @@ body {
   width: 100%;
   height: 100%;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-end;
+  justify-content: flex-start;
 }
 
 .MainPicture {
@@ -85,7 +85,9 @@ body {
   display: flex;
   position: absolute;
   color: white;
-  font-size: 50px;
+  font-size: 24px;
+  font-family: "Archivo Narrow", sans-serif;
+  padding: 40px;
 }
 
 .BigText {
@@ -115,7 +117,7 @@ body {
   font-family: "Abel", sans-serif;
 }
 p {
-  padding: 20px;
+  /* padding: 20px; */
 }
 
 .wares {
@@ -125,6 +127,13 @@ p {
   flex-direction: row;
   justify-content: space-between;
   padding: 20px;
+}
+
+.wareItem {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 .MovingText {
