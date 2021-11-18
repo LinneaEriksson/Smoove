@@ -50,7 +50,6 @@ body {
 }
 
 .SpaceBetween {
-  display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
@@ -89,11 +88,30 @@ body {
   font-size: 50px;
 }
 
+.BigText {
+  color: black;
+  font-size: 36px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: 80px;
+  margin-bottom: 0px;
+  font-family: "Abel", sans-serif;
+}
+
 .TextInBetween {
-  text-align: center;
+  /* text-align: center; Ej på denna? */
+  color: black;
+  font-size: 18px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: 0px;
+  margin-bottom: 80px;
+  font-family: "Abel", sans-serif;
 }
 
 .MovingText {
   font-size: 50px;
   text-align: center;
+  margin-top: 100px;
+  margin-bottom: 2000px;
 }
