@@ -15,7 +15,7 @@ body {
 /* Nav and hamburger-menu */
 
 .TopNav {
-  overflow: hidden;
+  /* overflow: hidden; */
   /* background-color: black; */
   position: absolute;
 }
