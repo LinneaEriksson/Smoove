@@ -9,22 +9,22 @@ body {
   background-color: #aaa7cd;
 }
 
-.test {
+.Test {
   background-image: linear-gradient(#aaa7cd, #e4cfd4, #d3ad79);
 }
 /* Nav and hamburger-menu */
 
-.topnav {
+.TopNav {
   overflow: hidden;
   background-color: black;
   position: relative;
 }
 
-.topnav #myLinks {
+.TopNav #MyLinks {
   display: none;
 }
 
-.topnav a {
+.TopNav a {
   color: white;
   padding: 14px 16px;
   text-decoration: none;
@@ -32,7 +32,7 @@ body {
   display: block;
 }
 
-.topnav a.icon {
+.TopNav a.Icon {
   background: black;
   display: block;
   position: absolute;
@@ -40,7 +40,7 @@ body {
   top: 0;
 }
 
-.topnav a.icon:hover {
+.TopNav a.Icon:hover {
   background-color: #333;
 }
 
