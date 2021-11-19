@@ -16,37 +16,26 @@ window.onclick = function (event) {
   }
 };
 
-// TESTING U_NDER HÄR
-// Dots on car
-const setDataTypeOnImage = document.querySelector(
-  "section[name=Personalize] img"
-);
-if (window.innerWidth <= 1024) {
-  setDataTypeOnImage.dataset.type = "mobile";
-} else {
-  setDataTypeOnImage.dataset.type = "desktop";
-}
-// Show correct image when in #personalize when dots are clicked.
-const dots = document.querySelectorAll(".dot");
-dots.forEach((dot) => {
-  dot.addEventListener(touchEvent, (e) => {
-    const color = e.target.getAttribute("id");
-    const imageParent = document.querySelector(".personalize");
-    const image = imageParent.getElementsByTagName("img")[0];
-    const dataTypeDesktop = document.querySelector(
-      ".personalize picture source"
-    );
-    const dataType = document.querySelector(".personalize picture img").dataset
-      .type;
-    //if (dataType === "mobile") {
-    //image.src = `/images/mobile_colors_${color}.png`;
-    //} else {
-    //    dataTypeDesktop.srcset = `/images/colors_${color}.jpg`;
-    image.src = `/images/colors_${color}.jpg`;
-    // }
-  });
-});
+// Functions to change the color of the car.
 
-function PictureChange() {
-  document.getElementById("TheImage").src = "images/colors_black.jpg";
+function PictureChangeBlack() {
+  document.getElementById("ChangeColorPicture").src = "images/colors_black.jpg";
 }
+
+function PictureChangeRed() {
+  document.getElementById("ChangeColorPicture").src = "images/colors_red.jpg";
+}
+
+function PictureChangeGreen() {
+  document.getElementById("ChangeColorPicture").src = "images/colors_green.jpg";
+}
+
+function PictureChangeGray() {
+  document.getElementById("ChangeColorPicture").src = "images/colors_gray.jpg";
+}
+
+function PictureChangeWhite() {
+  document.getElementById("ChangeColorPicture").src = "images/colors_white.jpg";
+}
+
+//
