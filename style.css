@@ -217,7 +217,8 @@ nav {
   background-color: black;
   border: none;
   color: white;
-  padding: 10px;
+  height: 40px;
+  width: 40px;
   border-radius: 100%;
   margin: 10px;
   cursor: crosshair;
@@ -230,7 +231,8 @@ nav {
   background-color: #b80000;
   border: none;
   color: white;
-  padding: 10px;
+  height: 40px;
+  width: 40px;
   border-radius: 100%;
   margin: 10px;
   cursor: crosshair;
@@ -243,7 +245,8 @@ nav {
   background-color: #064e00;
   border: none;
   color: white;
-  padding: 10px;
+  height: 40px;
+  width: 40px;
   border-radius: 100%;
   margin: 10px;
   cursor: crosshair;
@@ -256,7 +259,8 @@ nav {
   background-color: #7a7975;
   border: none;
   color: white;
-  padding: 10px;
+  height: 40px;
+  width: 40px;
   border-radius: 100%;
   margin: 10px;
   cursor: crosshair;
@@ -269,7 +273,8 @@ nav {
   background-color: #ddd6ca;
   border: none;
   color: white;
-  padding: 10px;
+  height: 40px;
+  width: 40px;
   border-radius: 100%;
   margin: 10px;
   cursor: crosshair;
