@@ -12,45 +12,87 @@ body {
 .Test {
   background-image: linear-gradient(#aaa7cd, #e4cfd4, #d3ad79);
 }
-/* Nav and hamburger-menu */
 
-.TopNav {
-  /* overflow: hidden; */
-  /* background-color: black; */
-  position: absolute;
-}
-
-.TopNav #MyLinks {
-  display: none;
-  position: absolute;
-}
-
-.TopNav a {
-  color: white;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  display: block;
-  position: absolute;
-}
-
-.TopNav a.Icon {
-  background: black;
-  display: block;
-  position: absolute;
-  right: 0;
-  top: 0;
-}
-
-.TopNav a.Icon:hover {
-  background-color: #333;
-}
+/* nav background img */
 
 .HeadPicture {
+  background-image: url("/images/phone\ cityscape.jpg");
   width: 100%;
+  min-height: 600px;
   margin: 0px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   position: relative;
 }
+
+/* navbar and dropdown-menu */
+
+nav {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dropbtn {
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  width: 40px;
+  height: 40px;
+  display: block;
+  position: relative;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  width: auto;
+  overflow: auto;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px;
+  text-decoration: none;
+  display: block;
+}
+
+.show {
+  display: block;
+}
+
+.dropbtn span {
+  display: block;
+  position: absolute;
+  height: 4px;
+  width: 100%;
+  background: black;
+  border-radius: 9px;
+  opacity: 1;
+  left: 0;
+}
+
+.dropbtn span:nth-child(1) {
+  top: 0px;
+}
+.dropbtn span:nth-child(2) {
+  top: 12px;
+}
+.dropbtn span:nth-child(3) {
+  top: 24px;
+}
+
+/* body */
 
 .SpaceBetween {
   align-items: center;
