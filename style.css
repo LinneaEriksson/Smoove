@@ -284,7 +284,7 @@ nav {
   height: 400px;
 }
 
-body {
+/* body {
   align-items: center;
   display: flex;
   font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
@@ -303,7 +303,7 @@ h1 {
 
 p {
   margin: 0;
-}
+} */
 
 .carousel {
   justify-content: flex-start;
