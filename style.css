@@ -16,12 +16,13 @@ body {
 
 .TopNav {
   overflow: hidden;
-  background-color: black;
-  position: relative;
+  /* background-color: black; */
+  position: absolute;
 }
 
 .TopNav #MyLinks {
   display: none;
+  position: absolute;
 }
 
 .TopNav a {
@@ -30,6 +31,7 @@ body {
   text-decoration: none;
   font-size: 17px;
   display: block;
+  position: absolute;
 }
 
 .TopNav a.Icon {
@@ -47,6 +49,7 @@ body {
 .HeadPicture {
   width: 100%;
   margin: 0px;
+  position: relative;
 }
 
 .SpaceBetween {

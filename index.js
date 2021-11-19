@@ -6,8 +6,3 @@ function myFunction() {
     x.style.display = "block";
   }
 }
-
-const gridItem = document.querySelector(".HoverPicture");
-
-const imageOfMe = gridItem.querySelector(".HoverPicture img");
-imageOfMe.src = "images/testbild.jpg";
