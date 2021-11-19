@@ -3,18 +3,18 @@ function myFunction() {
 }
 
 // Close the dropdown if the user clicks outside of it
-window.onclick = function(event) {
-  if (!event.target.matches('.dropbtn')) {
+window.onclick = function (event) {
+  if (!event.target.matches(".dropbtn")) {
     var dropdowns = document.getElementsByClassName("dropdown-content");
     var i;
     for (i = 0; i < dropdowns.length; i++) {
       var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
+      if (openDropdown.classList.contains("show")) {
+        openDropdown.classList.remove("show");
       }
     }
   }
-}
+};
 
 // TESTING U_NDER HÄR
 // Dots on car
@@ -38,11 +38,15 @@ dots.forEach((dot) => {
     );
     const dataType = document.querySelector(".personalize picture img").dataset
       .type;
-    if (dataType === "mobile") {
-      image.src = `/images/mobile_colors_${color}.png`;
-    } else {
-      dataTypeDesktop.srcset = `/images/colors_${color}.jpg`;
-      image.src = `/images/colors_${color}.jpg`;
-    }
+    //if (dataType === "mobile") {
+    //image.src = `/images/mobile_colors_${color}.png`;
+    //} else {
+    //    dataTypeDesktop.srcset = `/images/colors_${color}.jpg`;
+    image.src = `/images/colors_${color}.jpg`;
+    // }
   });
 });
+
+function PictureChange() {
+  document.getElementById("TheImage").src = "images/colors_black.jpg";
+}
