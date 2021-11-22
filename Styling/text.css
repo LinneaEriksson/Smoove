@@ -1,0 +1,73 @@
+.JoinTheSmoovement {
+  color: black;
+  font-size: 24px;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 80px;
+  font-family: "Abel", sans-serif;
+  text-align: center;
+}
+
+.TextOverPicture {
+  display: flex;
+  position: absolute;
+  color: white;
+  font-size: 22px;
+  font-family: "Archivo Narrow", sans-serif;
+  padding-left: 20px;
+  padding-bottom: 30px;
+}
+
+.BigText {
+  color: black;
+  font-size: 36px;
+  margin-bottom: 0px;
+  font-family: "Abel", sans-serif;
+  padding-left: 20px;
+}
+
+.FactsText {
+  color: black;
+  font-size: 36px;
+  margin-bottom: 0px;
+  font-family: "Abel", sans-serif;
+}
+
+.SmallText {
+  color: black;
+  font-size: 12px;
+  font-family: "Abel", sans-serif;
+  margin: 0px;
+}
+
+.TextInBetween {
+  /* text-align: center; Ej på denna? */
+  color: black;
+  font-size: 18px;
+  padding-left: 20px;
+  padding-right: 30px;
+  margin-top: 0px;
+  padding-bottom: 40px;
+  font-family: "Abel", sans-serif;
+}
+
+.FactsAboutCar {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  column-gap: 5%;
+  row-gap: 15px;
+}
+
+.FactItems {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.MovingText {
+  font-size: 50px;
+  text-align: center;
+  margin-top: 100px;
+  padding-bottom: 100px;
+}

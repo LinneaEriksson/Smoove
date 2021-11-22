@@ -1,0 +1,26 @@
+/* nav background img */
+
+.HeadPicture {
+  background-image: url("/images/phone\ cityscape.jpg");
+  width: 100%;
+  min-height: 600px;
+  margin: 0px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.MainPicture {
+  width: 100%;
+  margin: 0px;
+}
+
+.HoverPicture {
+  width: 100%;
+  margin: 0px;
+}
+
+#ChangeColorPicture {
+  width: 100%;
+}

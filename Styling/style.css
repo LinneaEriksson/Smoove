@@ -13,19 +13,6 @@ body {
   background-image: linear-gradient(#aaa7cd, #e4cfd4, #d3ad79);
 }
 
-/* nav background img */
-
-.HeadPicture {
-  background-image: url("/images/phone\ cityscape.jpg");
-  width: 100%;
-  min-height: 600px;
-  margin: 0px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
 /* navbar and dropdown-menu */
 
 nav {
@@ -106,16 +93,6 @@ nav {
   padding-left: 20px;
 }
 
-.JoinTheSmoovement {
-  color: black;
-  font-size: 24px;
-  padding: 20px;
-  margin-top: 20px;
-  margin-bottom: 80px;
-  font-family: "Abel", sans-serif;
-  text-align: center;
-}
-
 .Container {
   position: relative;
   width: 100%;
@@ -125,85 +102,7 @@ nav {
   justify-content: flex-start;
 }
 
-.MainPicture {
-  width: 100%;
-  margin: 0px;
-}
-
-.HoverPicture {
-  width: 100%;
-  margin: 0px;
-}
-
-.TextOverPicture {
-  display: flex;
-  position: absolute;
-  color: white;
-  font-size: 22px;
-  font-family: "Archivo Narrow", sans-serif;
-  padding-left: 20px;
-  padding-bottom: 30px;
-}
-
-.BigText {
-  color: black;
-  font-size: 36px;
-  margin-bottom: 0px;
-  font-family: "Abel", sans-serif;
-  padding-left: 20px;
-}
-
-.FactsText {
-  color: black;
-  font-size: 36px;
-  margin-bottom: 0px;
-  font-family: "Abel", sans-serif;
-}
-
-.SmallText {
-  color: black;
-  font-size: 12px;
-  font-family: "Abel", sans-serif;
-  margin: 0px;
-}
-
-.TextInBetween {
-  /* text-align: center; Ej på denna? */
-  color: black;
-  font-size: 18px;
-  padding-left: 20px;
-  padding-right: 30px;
-  margin-top: 0px;
-  padding-bottom: 40px;
-  font-family: "Abel", sans-serif;
-}
-
-.FactsAboutCar {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  column-gap: 5%;
-  row-gap: 15px;
-}
-
-.FactItems {
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-}
-
-.MovingText {
-  font-size: 50px;
-  text-align: center;
-  margin-top: 100px;
-  padding-bottom: 100px;
-}
-
-/* TESTING */
-
-#ChangeColorPicture {
-  width: 100%;
-}
+/* Button that changes color on the car  */
 
 .ButtonInline {
   display: flex;
