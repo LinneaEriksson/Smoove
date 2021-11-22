@@ -42,7 +42,7 @@ nav {
   display: inline-block;
 }
 
-.Dropdown-Content {
+.DropdownContent {
   display: none;
   position: absolute;
   width: auto;
@@ -50,14 +50,14 @@ nav {
   z-index: 1;
 }
 
-.Dropdown-Content a {
+.DropdownContent a {
   color: black;
   padding: 12px;
   text-decoration: none;
   display: block;
 }
 
-.show {
+.Show {
   display: block;
 }
 
