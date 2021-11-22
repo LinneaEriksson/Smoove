@@ -29,7 +29,7 @@
     align-self: flex-end;
   }
 
-  .dropdown {
+  .DropDown {
     display: none;
   }
 }
