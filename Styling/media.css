@@ -3,6 +3,17 @@
     background-image: linear-gradient(to right, #6e5c97, #ffc1a8);
   }
 
+  .HeadPicture {
+    background-image: url("/images/phone\ cityscape.jpg");
+    width: 100%;
+    min-height: 1080px;
+    margin: 0px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
   .JoinTheSmoovement {
     color: black;
     font-size: 64px;
@@ -15,18 +26,17 @@
 
   .TextOverHeadPicture {
     display: flex;
-    align-items: flex-end;
     justify-content: flex-end;
-    align-self: flex-end;
+    align-content: flex-end;
   }
 
   h2 {
     color: white;
-    display: block;
     font-family: "abel";
+    font-size: 48px;
     padding: 60px;
     display: flex;
-    align-self: flex-end;
+    position: absolute;
   }
 
   .Dropdown {
