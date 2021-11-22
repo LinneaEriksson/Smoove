@@ -26,7 +26,7 @@ nav {
   align-items: center;
 }
 
-.dropbtn {
+.DropBtn {
   color: black;
   padding: 16px;
   font-size: 16px;
@@ -37,12 +37,12 @@ nav {
   cursor: pointer;
 }
 
-.dropdown {
+.Dropdown {
   position: relative;
   display: inline-block;
 }
 
-.dropdown-content {
+.Dropdown-Content {
   display: none;
   position: absolute;
   width: auto;
@@ -50,7 +50,7 @@ nav {
   z-index: 1;
 }
 
-.dropdown-content a {
+.Dropdown-Content a {
   color: black;
   padding: 12px;
   text-decoration: none;
@@ -61,7 +61,7 @@ nav {
   display: block;
 }
 
-.dropbtn span {
+.DropBtn span {
   display: block;
   position: absolute;
   height: 4px;
@@ -72,13 +72,13 @@ nav {
   left: 0;
 }
 
-.dropbtn span:nth-child(1) {
+.DropBtn span:nth-child(1) {
   top: 0px;
 }
-.dropbtn span:nth-child(2) {
+.DropBtn span:nth-child(2) {
   top: 12px;
 }
-.dropbtn span:nth-child(3) {
+.DropBtn span:nth-child(3) {
   top: 24px;
 }
 
