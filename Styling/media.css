@@ -13,11 +13,20 @@
     /* text-align: center; */
   }
 
+  .TextOverHeadPicture {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    align-self: flex-end;
+  }
+
   h2 {
     color: white;
     display: block;
     font-family: "abel";
     padding: 60px;
+    display: flex;
+    align-self: flex-end;
   }
 
   .dropdown {
