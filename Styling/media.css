@@ -42,4 +42,8 @@
   .Dropdown {
     display: none;
   }
+
+  .SpaceBetween {
+    display: none;
+  }
 }
