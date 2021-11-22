@@ -165,3 +165,9 @@ var carousels = Array.prototype.map.call(document.querySelectorAll('.carousel'),
   carousel.auto(5000);
   return carousel;
 });
+
+// year
+
+const d = new Date();
+let year = d.getFullYear();
+document.getElementById("demo").innerHTML = year;
