@@ -9,7 +9,7 @@ body {
   background-color: #aaa7cd;
 }
 
-.Test {
+.BackgroundShade {
   background-image: linear-gradient(#aaa7cd, #e4cfd4, #d3ad79);
 }
 
