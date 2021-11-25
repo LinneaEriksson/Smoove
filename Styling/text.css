@@ -3,6 +3,7 @@ h2 {
   font-family: "Gruppo", cursive;
   font-size: 48px;
   display: flex;
+  padding-bottom: 40px;
 }
 
 h3 {
