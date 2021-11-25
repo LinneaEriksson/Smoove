@@ -25,17 +25,18 @@ body {
   align-items: center;
 }
 
-/* New nav and dropdown-menu */
+/* nav and dropdown-menu */
 
-/* Style the navigation menu */
 .topnav {
-  /* overflow: hidden; */
   background-color: transparent;
   position: relative;
+  display: flex;
+  /* justify-content: flex-end; */
+  padding: 30px;
 }
 
 /* Hide the links inside the navigation menu (except for logo/home) */
-.topnav #myLinks {
+#myLinks {
   display: none;
   text-align: center;
   color: white;
@@ -43,7 +44,7 @@ body {
   width: auto;
   text-decoration: white underline;
   background-color: black;
-  z-index: 1;
+  /* z-index: 1; */
 }
 
 /* Style navigation menu links */
@@ -56,16 +57,16 @@ body {
 }
 
 /* Style the hamburger menu */
-.topnav a.icon {
-  background-image: url("/MenuImages/meny.svg");
+.icon {
+  background-image: url("MenuImages/meny.svg");
   display: block;
   position: absolute;
-  right: 0;
-  top: 0;
+  /* right: 30px;
+  top: 30px; */
 }
 
 /* Style the active link (or home/logo) */
-.active {
+.logo {
   color: white;
 }
 
@@ -98,13 +99,16 @@ ul :first-child {
   padding: 30px;
 } */
 
-/*.DropBtn {
+.DropBtn {
   background-color: transparent;
   border: none;
-  width: auto;
-  height: auto;
+  display: block;
+  position: relative;
+  right: 0;
+  top: 0;
 }
 
+/*
 .Dropdown {
   position: relative;
   display: inline-block;
@@ -249,7 +253,7 @@ footer {
   text-decoration: white underline;
   text-decoration-color: white;
   z-index: 1;
-  position: absolute;
+  position: relative;
 }
 
 footer a {

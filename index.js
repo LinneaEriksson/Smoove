@@ -1,20 +1,3 @@
-// function myFunction() {
-//   document.getElementById("MyDropdown").classList.toggle("Show");
-// }
-
-// // Close the dropdown if the user clicks outside of it
-// window.onclick = function (event) {
-//   if (!event.target.matches(".DropBtn")) {
-//     var dropdowns = document.getElementsByClassName(".OpenMenu");
-//     var i;
-//     for (i = 0; i < dropdowns.length; i++) {
-//       var openDropdown = dropdowns[i];
-//       if (openDropdown.classList.contains("Show")) {
-//         openDropdown.classList.remove("Show");
-//       }
-//     }
-//   }
-// };
 
 function myFunction() {
   var x = document.getElementById("myLinks");
