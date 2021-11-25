@@ -31,14 +31,14 @@ h2 {
 }
 
 .FactsText {
-  color: rgb(255, 255, 255);
+  color: #e43c79;
   font-size: 36px;
   margin-bottom: 0px;
   font-family: "Gruppo", cursive;
 }
 
 .SmallText {
-  color: rgb(255, 255, 255);
+  color: #e43c79;
   font-size: 12px;
   font-family: "Gruppo", cursive;
   margin: 0px;
