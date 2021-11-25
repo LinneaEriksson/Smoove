@@ -1,11 +1,11 @@
 function myFunction() {
-  document.getElementById("myDropdown").classList.toggle("show");
+  document.getElementById("MyDropdown").classList.toggle("show");
 }
 
 // Close the dropdown if the user clicks outside of it
 window.onclick = function (event) {
   if (!event.target.matches(".dropBtn")) {
-    var dropdowns = document.getElementsByClassName("OpenMenu");
+    var dropdowns = document.getElementsByClassName(".OpenMenu");
     var i;
     for (i = 0; i < dropdowns.length; i++) {
       var openDropdown = dropdowns[i];
