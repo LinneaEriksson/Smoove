@@ -1,20 +1,30 @@
+// function myFunction() {
+//   document.getElementById("MyDropdown").classList.toggle("Show");
+// }
+
+// // Close the dropdown if the user clicks outside of it
+// window.onclick = function (event) {
+//   if (!event.target.matches(".DropBtn")) {
+//     var dropdowns = document.getElementsByClassName(".OpenMenu");
+//     var i;
+//     for (i = 0; i < dropdowns.length; i++) {
+//       var openDropdown = dropdowns[i];
+//       if (openDropdown.classList.contains("Show")) {
+//         openDropdown.classList.remove("Show");
+//       }
+//     }
+//   }
+// };
+
 function myFunction() {
-  document.getElementById("MyDropdown").classList.toggle("Show");
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
 }
 
-// Close the dropdown if the user clicks outside of it
-window.onclick = function (event) {
-  if (!event.target.matches(".DropBtn")) {
-    var dropdowns = document.getElementsByClassName(".OpenMenu");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains("Show")) {
-        openDropdown.classList.remove("Show");
-      }
-    }
-  }
-};
 
 // Functions to change the color of the car.
 

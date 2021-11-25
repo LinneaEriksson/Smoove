@@ -27,13 +27,78 @@ body {
 
 /* New nav and dropdown-menu */
 
-.Menu {
+/* Style the navigation menu */
+.topnav {
+  /* overflow: hidden; */
+  background-color: transparent;
+  position: relative;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+  text-align: center;
+  color: white;
+  width: 100%;
+  width: auto;
+  text-decoration: white underline;
+  background-color: black;
+  z-index: 1;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: white underline;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background-image: url("/MenuImages/meny.svg");
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  display: inline-block;
+  text-align: center;
+  /* padding: 0; */
+}
+
+li {
+  margin-top: 50px;
+}
+
+ul :last-child {
+  margin-bottom: 144px;
+}
+
+ul :first-child {
+  margin-top: 144px;
+}
+
+.topnav img {
+  margin-bottom: 80px;
+  margin-top: 80px;
+}
+/* .Menu {
   display: flex;
   justify-content: flex-end;
   padding: 30px;
-}
+} */
 
-.DropBtn {
+/*.DropBtn {
   background-color: transparent;
   border: none;
   width: auto;
@@ -50,12 +115,12 @@ body {
   color: white;
   text-align: center;
   width: 100%;
-  overflow: auto;
-  text-decoration: white underline;
-  z-index: 1;
-  display: none;
-  position: absolute;
-}
+  /* overflow: auto; */
+/* text-decoration: white underline; */
+/* z-index: 1; */
+/* display: none; */
+/* position: absolute; */
+/* } */
 
 .OpenMenu a {
   color: white;
@@ -88,6 +153,7 @@ ul :first-child {
   margin-bottom: 80px;
   margin-top: 80px;
 }
+*/
 
 /* body */
 
