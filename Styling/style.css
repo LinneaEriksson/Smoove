@@ -12,6 +12,10 @@ body {
   background-color: #161414;
 }
 
+.ButtonsAndText {
+  display: flex;
+}
+
 /* New nav and dropdown-menu */
 
 .DropBtn {
