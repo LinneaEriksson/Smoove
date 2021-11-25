@@ -7,12 +7,12 @@ h2 {
 
 .JoinTheSmoovement {
   color: rgb(255, 255, 255);
-  font-size: 24px;
+  font-size: 30px;
   font-family: "Gruppo", cursive;
-  /* text-align: center; */
 }
 
-.TextOverPicture {
+/* FINNS EJ KVAR I HTML, SPARAT OM VI BEHÖVER DEN, KAN TAS BORT ANNARS */
+/* .TextOverPicture {
   display: flex;
   position: absolute;
   color: white;
@@ -20,7 +20,7 @@ h2 {
   font-family: "Archivo Narrow", sans-serif;
   padding-left: 20px;
   padding-bottom: 30px;
-}
+} */
 
 .BigText {
   color: rgb(255, 255, 255);
