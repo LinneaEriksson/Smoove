@@ -12,10 +12,6 @@ body {
   background-color: #161414;
 }
 
-.BackgroundShade {
-  background-color: #161414;
-}
-
 /* New nav and dropdown-menu */
 
 .DropBtn {
@@ -42,7 +38,7 @@ body {
   position: absolute;
 }
 
-.show {
+.Show {
   display: block;
 }
 

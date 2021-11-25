@@ -1,7 +1,7 @@
 /* nav background img */
 
 .HeadPicture {
-  background-image: url("/images/phone\ cityscape.jpg");
+  background-image: url("/images/cityscape.jpg");
   width: 100%;
   min-height: 600px;
   margin: 0px;
@@ -9,14 +9,6 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-}
-
-.HeadPicture button  {
-  position: fixed;
-  right: 0;
-  top: 50%;
-  width: 8em;
-  margin-top: -2.5em;
 }
 
 .MainPicture {
