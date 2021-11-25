@@ -36,7 +36,6 @@ body {
   text-align: center;
   width: 100%;
   overflow: auto;
-  width: auto;
   text-decoration: white underline;
   z-index: 1;
   display: none;
@@ -213,4 +212,17 @@ input[type="submit"] {
 
 .PictureGridWithText {
   display: none;
+}
+
+/* footer */
+
+footer {
+  background-color: none;
+  color: white;
+  text-align: center;
+  width: 100%;
+  text-decoration: white underline;
+  text-decoration-color: white;
+  z-index: 1;
+  position: absolute;
 }
