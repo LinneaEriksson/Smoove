@@ -11,6 +11,10 @@
   position: relative;
 }
 
+.HeadPicture button  {
+  justify-self: flex-end;
+}
+
 .MainPicture {
   width: 100%;
   margin: 0px;
