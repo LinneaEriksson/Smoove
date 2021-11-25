@@ -35,6 +35,8 @@ h3 {
 }
 
 .FactsAboutCar {
+  padding-top: 50px;
+  padding-bottom: 30px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
@@ -43,7 +45,6 @@ h3 {
 }
 
 .FactItems {
-  padding: 20px;
   display: flex;
   flex-direction: column;
 }

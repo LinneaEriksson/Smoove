@@ -23,13 +23,14 @@ body {
   color: white;
   text-align: center;
   width: 100%;
+  text-decoration: white underline;
 }
 
-.OpenMenu a,
-p {
+/* Allt blir underline av denna text */
+/* .OpenMenu a, p {
   text-decoration: white underline;
   color: white;
-}
+} */
 
 ul {
   list-style-type: none;
