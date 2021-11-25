@@ -24,6 +24,17 @@ body {
   text-align: center;
   width: 100%;
   text-decoration: white underline;
+  z-index: 1;
+  display: none;
+}
+
+.Dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.show {
+  display: block;
 }
 
 /* Allt blir underline av denna text */
@@ -56,7 +67,7 @@ ul :first-child {
   margin-top: 80px;
 }
 
-button {
+.dropBtn {
   background-color: none;
   border: none;
 }
