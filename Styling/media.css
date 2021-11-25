@@ -30,15 +30,6 @@
     align-content: flex-end;
   }
 
-  h2 {
-    color: white;
-    font-family: "Gruppo", cursive;
-    font-size: 48px;
-    padding: 60px;
-    display: flex;
-    position: absolute;
-  }
-
   .Dropdown {
     display: none;
   }

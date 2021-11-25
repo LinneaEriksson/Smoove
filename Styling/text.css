@@ -1,13 +1,13 @@
 h2 {
-  display: none;
+  color: white;
+  font-family: "Gruppo", cursive;
+  font-size: 48px;
+  display: flex;
 }
 
 .JoinTheSmoovement {
   color: rgb(255, 255, 255);
   font-size: 24px;
-  padding: 20px;
-  margin-top: 20px;
-  margin-bottom: 80px;
   font-family: "Gruppo", cursive;
   /* text-align: center; */
 }
