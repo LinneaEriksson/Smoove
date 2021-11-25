@@ -26,8 +26,14 @@ function PictureChangeRed() {
   document.getElementById("ChangeColorPicture").src = "images/colors_red.jpg";
 }
 
-function PictureChangeGreen() {
-  document.getElementById("ChangeColorPicture").src = "images/colors_green.jpg";
+function PictureChangeOrange() {
+  document.getElementById("ChangeColorPicture").src =
+    "images/colors_orange.jpg";
+}
+
+function PictureChangePurple() {
+  document.getElementById("ChangeColorPicture").src =
+    "images/colors_purple.jpg";
 }
 
 function PictureChangeGray() {
