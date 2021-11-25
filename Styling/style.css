@@ -12,8 +12,17 @@ body {
   background-color: #161414;
 }
 
+.Container {
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .ButtonsAndText {
   display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /* New nav and dropdown-menu */
