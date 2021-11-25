@@ -26,12 +26,12 @@ function PictureChangeRed() {
   document.getElementById("ChangeColorPicture").src = "images/colors_red.jpg";
 }
 
-function PictureChangeGreen() {
+function PictureChangeOrange() {
   document.getElementById("ChangeColorPicture").src =
     "images/colors_orange.jpg";
 }
 
-function PictureChangeGreen() {
+function PictureChangePurple() {
   document.getElementById("ChangeColorPicture").src =
     "images/colors_purple.jpg";
 }
