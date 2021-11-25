@@ -1,9 +1,31 @@
 .Email {
-  background-color: #e43c79;
+  display: flex;
+  background-color: transparent;
+  font-family: "Abel", sans-serif;
+  text-align: center;
+  color: #e43c79;
+  font-size: 16px;
+  justify-content: center;
+  align-items: center;
+  width: 205.04px;
+  height: 44.92px;
+  border-radius: 12px;
+  border: 1px solid #e43c79;
 }
 
 .Join {
+  display: flex;
   background-color: #e43c79;
+  font-family: "Abel", sans-serif;
+  text-align: center;
+  color: black;
+  font-size: 16px;
+  justify-content: center;
+  align-items: center;
+  width: 205.04px;
+  height: 44.92px;
+  border-radius: 12px;
+  border: 1px solid #e43c79;
 }
 
 /* Button that changes color on the car  */
