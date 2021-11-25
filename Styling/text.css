@@ -3,6 +3,7 @@ h1 {
   font-size: 24px;
   margin-bottom: 0px;
   font-family: "Abel", sans-serif;
+  text-align: center;
 }
 
 .TextOnPicture {
@@ -10,6 +11,7 @@ h1 {
   font-size: 14px;
   margin-bottom: 0px;
   font-family: "Abel", sans-serif;
+  text-align: center;
 }
 
 h2 {
