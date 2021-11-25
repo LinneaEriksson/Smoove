@@ -42,6 +42,10 @@ body {
   position: absolute;
 }
 
+.OpenMenu a {
+  color: white;
+}
+
 .Show {
   display: block;
 }
@@ -204,4 +208,13 @@ footer {
   text-decoration-color: white;
   z-index: 1;
   position: absolute;
+}
+
+footer a {
+  color: white;
+}
+
+footer img {
+  margin-bottom: 80px;
+  margin-top: 80px;
 }
