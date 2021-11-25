@@ -5,30 +5,19 @@ h2 {
   display: flex;
 }
 
-.JoinTheSmoovement {
-  color: rgb(255, 255, 255);
-  font-size: 30px;
-  font-family: "Gruppo", cursive;
-}
-
-/* FINNS EJ KVAR I HTML, SPARAT OM VI BEHÖVER DEN, KAN TAS BORT ANNARS */
-/* .TextOverPicture {
-  display: flex;
-  position: absolute;
-  color: white;
-  font-size: 22px;
-  font-family: "Archivo Narrow", sans-serif;
-  padding-left: 20px;
-  padding-bottom: 30px;
-} */
-
-.BigText {
+h3 {
   color: rgb(255, 255, 255);
   font-size: 36px;
   margin-bottom: 0px;
   font-family: "Gruppo", cursive;
   text-decoration: underline;
-  padding-left: 20px;
+}
+
+.BreadText {
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  font-family: "Gruppo", cursive;
+  line-height: 100%;
 }
 
 .FactsText {
@@ -43,17 +32,6 @@ h2 {
   font-size: 12px;
   font-family: "Abel", sans-serif;
   margin: 0px;
-}
-
-.TextInBetween {
-  /* text-align: center; Ej på denna? */
-  color: rgb(255, 255, 255);
-  font-size: 24px;
-  padding-left: 20px;
-  padding-right: 30px;
-  margin-top: 0px;
-  padding-bottom: 40px;
-  font-family: "Gruppo", cursive;
 }
 
 .FactsAboutCar {
