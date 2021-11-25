@@ -9,11 +9,11 @@
 
 body {
   margin: 0px;
-  background-color: #aaa7cd;
+  background-color: #000000;
 }
 
 .BackgroundShade {
-  background-image: linear-gradient(#aaa7cd, #e4cfd4, #d3ad79);
+  background-color: black;
 }
 
 /* navbar and dropdown-menu */

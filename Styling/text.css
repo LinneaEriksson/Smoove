@@ -8,7 +8,7 @@ h2 {
   padding: 20px;
   margin-top: 20px;
   margin-bottom: 80px;
-  font-family: "Abel", sans-serif;
+  font-family: "Gruppo", cursive;
   /* text-align: center; */
 }
 
@@ -26,7 +26,7 @@ h2 {
   color: black;
   font-size: 36px;
   margin-bottom: 0px;
-  font-family: "Abel", sans-serif;
+  font-family: "Gruppo", cursive;
   padding-left: 20px;
 }
 
@@ -34,13 +34,13 @@ h2 {
   color: black;
   font-size: 36px;
   margin-bottom: 0px;
-  font-family: "Abel", sans-serif;
+  font-family: "Gruppo", cursive;
 }
 
 .SmallText {
   color: black;
   font-size: 12px;
-  font-family: "Abel", sans-serif;
+  font-family: "Gruppo", cursive;
   margin: 0px;
 }
 
@@ -52,7 +52,7 @@ h2 {
   padding-right: 30px;
   margin-top: 0px;
   padding-bottom: 40px;
-  font-family: "Abel", sans-serif;
+  font-family: "Gruppo", cursive;
 }
 
 .FactsAboutCar {
