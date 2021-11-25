@@ -27,8 +27,14 @@ body {
 
 /* New nav and dropdown-menu */
 
+.Menu {
+  display: flex;
+  justify-content: flex-end;
+  padding: 30px;
+}
+
 .DropBtn {
-  background-color: none;
+  background-color: transparent;
   border: none;
   width: auto;
   height: auto;
