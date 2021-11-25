@@ -23,7 +23,7 @@ h2 {
 }
 
 .BigText {
-  color: black;
+  color: rgb(255, 255, 255);
   font-size: 36px;
   margin-bottom: 0px;
   font-family: "Gruppo", cursive;
@@ -31,14 +31,14 @@ h2 {
 }
 
 .FactsText {
-  color: black;
+  color: rgb(255, 255, 255);
   font-size: 36px;
   margin-bottom: 0px;
   font-family: "Gruppo", cursive;
 }
 
 .SmallText {
-  color: black;
+  color: rgb(255, 255, 255);
   font-size: 12px;
   font-family: "Gruppo", cursive;
   margin: 0px;
@@ -46,7 +46,7 @@ h2 {
 
 .TextInBetween {
   /* text-align: center; Ej på denna? */
-  color: black;
+  color: rgb(255, 255, 255);
   font-size: 18px;
   padding-left: 20px;
   padding-right: 30px;
