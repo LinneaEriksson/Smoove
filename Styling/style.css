@@ -31,7 +31,7 @@ body {
   background-color: transparent;
   position: relative;
   display: flex;
-  /* justify-content: flex-end; */
+  justify-content: space-between;
   padding: 30px;
 }
 
@@ -41,7 +41,6 @@ body {
   text-align: center;
   color: white;
   width: 100%;
-  width: auto;
   text-decoration: white underline;
   background-color: black;
   /* z-index: 1; */
@@ -90,9 +89,10 @@ ul :first-child {
 }
 
 .topnav img {
-  margin-bottom: 80px;
-  margin-top: 80px;
+  margin-bottom: 20px;
+  margin-top: 60px;
 }
+
 /* .Menu {
   display: flex;
   justify-content: flex-end;
