@@ -244,25 +244,3 @@ ul :first-child {
 .PictureGridWithText {
   display: none;
 }
-
-/* footer */
-
-footer {
-  background-color: none;
-  color: white;
-  text-align: center;
-  width: 100%;
-  text-decoration: white underline;
-  text-decoration-color: white;
-  z-index: 1;
-  position: relative;
-}
-
-footer a {
-  color: white;
-}
-
-footer img {
-  margin-bottom: 80px;
-  margin-top: 80px;
-}
