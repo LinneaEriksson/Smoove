@@ -106,6 +106,18 @@ li {
   padding: 5px;
 }
 
-li:hover a {
+.MenuItems li:hover a {
   color: #e43c79;
+}
+
+/*  Laptop footer */
+
+#FooterInfo {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#FooterInfo li {
+  text-decoration: none;
+  display: inline-block;
 }
