@@ -4,6 +4,7 @@ h1 {
   margin-bottom: 0px;
   font-family: "Abel", sans-serif;
   text-align: center;
+  font-weight: 400;
 }
 
 .TextOnPicture {
@@ -13,6 +14,16 @@ h1 {
   font-family: "Abel", sans-serif;
   text-align: center;
   padding-bottom: 20px;
+}
+
+@media screen and (min-width: 700px) {
+  .TextOnPicture {
+    font-size: 24px;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
 }
 
 h2 {

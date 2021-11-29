@@ -13,7 +13,7 @@ body {
 }
 
 .Container {
-  height: 600px;
+  height: 800px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -25,6 +25,43 @@ body {
   align-items: center;
 }
 
+.ButtonsAndTextDesktopUseText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ButtonsAndTextDesktopUse {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 80px;
+}
+
+.LineBreak {
+  display: none;
+}
+
+@media screen and (min-width: 700px) {
+  .ButtonsAndText {
+    flex-direction: row;
+  }
+
+  .ButtonsAndTextDesktopUseText {
+    padding-left: 40px;
+    align-items: flex-start;
+  }
+
+  .ButtonsAndTextDesktopUse {
+    padding-left: 40px;
+    align-items: flex-start;
+    padding-bottom: 0px;
+  }
+
+  .LineBreak {
+    display: block;
+  }
+}
 /* body */
 
 .SpaceBetweenFirstBlock {

@@ -3,10 +3,10 @@
 .HeadPicture {
   background-image: url("/images/cityscape.jpg");
   width: 100%;
-  min-height: 600px;
+  object-fit: fill;
   margin: 0px;
   background-position: center;
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; GÖR DENNA NÅGOT? */
   background-size: cover;
   position: relative;
 }
@@ -23,4 +23,10 @@
 
 #ChangeColorPicture {
   width: 100%;
+}
+
+@media screen and (min-width: 700px) {
+  .HeadPicture {
+    background-image: url("/images/carcityscpefinal2.jpg");
+  }
 }
