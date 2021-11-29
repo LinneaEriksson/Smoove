@@ -37,6 +37,31 @@ footer a {
   font-size: 24px;
 }
 
+#myLinks ul {
+  list-style-type: none;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  /* padding: 0; */
+}
+
+footer li {
+  margin-top: 50px;
+}
+
+footer ul :last-child {
+  margin-bottom: 144px;
+}
+
+footer ul :first-child {
+  margin-top: 144px;
+}
+
+footer img {
+  margin-bottom: 20px;
+  margin-top: 60px;
+}
+
 /*  Laptop footer */
 @media screen and (min-width: 540px) {
   #FooterInfo {
