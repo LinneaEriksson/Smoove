@@ -59,19 +59,3 @@
     margin-top: 50px;
   }
 }
-
-/*  Laptop footer */
-
-#FooterInfo {
-  display: flex;
-  justify-content: space-evenly;
-}
-
-#FooterInfo li {
-  text-decoration: none;
-  display: inline-block;
-}
-
-#FooterInfo li:hover a {
-  color: #e43c79;
-}
