@@ -1,0 +1,151 @@
+/* nav and dropdown-menu */
+
+.topnav {
+  background-color: transparent;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  overflow: visible;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+#myLinks {
+  /* display: none; */
+  text-align: center;
+  color: white;
+  width: 100%;
+  /* height: 100%; */
+  text-decoration: white underline;
+  background-color: #161414;
+  position: absolute;
+  overflow: hidden;
+  /* z-index: 1; */
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: white underline;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.icon {
+  background-image: url("MenuImages/meny.svg");
+  display: block;
+  position: absolute;
+  /* right: 30px;
+  top: 30px; */
+}
+
+/* Style the active link (or home/logo) */
+.logo {
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  /* padding: 0; */
+}
+
+li {
+  margin-top: 50px;
+}
+
+ul :last-child {
+  margin-bottom: 144px;
+}
+
+ul :first-child {
+  margin-top: 144px;
+}
+
+.topnav img {
+  margin-bottom: 20px;
+  margin-top: 60px;
+}
+
+/* .Menu {
+  display: flex;
+  justify-content: flex-end;
+  padding: 30px;
+} */
+
+.DropBtn {
+  background-color: transparent;
+  border: none;
+  display: block;
+  position: relative;
+  right: 0;
+  top: 0;
+  cursor: pointer;
+  /* bara temporärt så att man ser va det är klickbart */
+}
+
+.MenuWrapper {
+  display: none;
+}
+
+.MenuItems {
+  display: none;
+}
+
+@media screen and (min-width: 540px) {
+  /* Laptop Menu */
+
+  .DropBtn {
+    display: none;
+  }
+
+  .MenuWrapper {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: right;
+    margin-top: 40px;
+    align-items: center;
+    display: block;
+  }
+
+  .MenuItems {
+    width: auto;
+    height: auto;
+    float: none;
+    display: inline-block;
+    margin-right: 60px;
+  }
+
+  .MenuLine {
+    background-color: white;
+    height: 160px;
+    width: 2px;
+    display: inline-block;
+  }
+
+  .MenuItems ul {
+    list-style-type: none;
+    display: inline-block;
+    text-align: right;
+    width: 100%;
+    padding-right: 100px;
+  }
+
+  ul a {
+    color: white;
+    text-decoration: none;
+  }
+
+  li {
+    padding: 5px;
+  }
+
+  .MenuItems li:hover a {
+    color: #e43c79;
+  }
+}

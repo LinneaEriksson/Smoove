@@ -38,7 +38,7 @@ body {
 
 /* Hide the links inside the navigation menu (except for logo/home) */
 #myLinks {
-  display: none;
+  /* display: none; */
   text-align: center;
   color: white;
   width: 100%;
@@ -115,14 +115,13 @@ ul :first-child {
   /* bara temporärt så att man ser va det är klickbart */
 }
 
-/* .Show {
-  display: block;
-} */
-
 .MenuWrapper {
   display: none;
 }
 
+.MenuItems {
+  display: none;
+}
 /* body */
 
 .SpaceBetweenFirstBlock {
