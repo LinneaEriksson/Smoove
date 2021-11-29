@@ -29,4 +29,9 @@
   .HeadPicture {
     background-image: url("/images/carcityscpefinal2.jpg");
   }
+
+  .MainPicture {
+    width: 55%;
+    margin: 40px;
+  }
 }

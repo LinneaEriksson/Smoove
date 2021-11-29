@@ -16,16 +16,6 @@ h1 {
   padding-bottom: 20px;
 }
 
-@media screen and (min-width: 700px) {
-  .TextOnPicture {
-    font-size: 24px;
-  }
-
-  h1 {
-    font-size: 40px;
-  }
-}
-
 h2 {
   color: white;
   font-family: "Gruppo", cursive;
@@ -97,4 +87,26 @@ footer {
   text-align: center;
   padding-top: 10px;
   padding-bottom: 5px;
+}
+
+@media screen and (min-width: 700px) {
+  .TextOnPicture {
+    font-size: 24px;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 72px;
+  }
+
+  h3 {
+    font-size: 48px;
+  }
+
+  .BreadText {
+    font-size: 36px;
+  }
 }
