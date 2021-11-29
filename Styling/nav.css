@@ -2,11 +2,11 @@
 
 .topnav {
   background-color: transparent;
-  position: relative;
+  /* position: relative; */
   display: flex;
   justify-content: space-between;
   padding: 30px;
-  overflow: visible;
+  /* overflow: visible; */
 }
 
 /* Hide the links inside the navigation menu (except for logo/home) */
@@ -24,7 +24,7 @@
 }
 
 /* Style navigation menu links */
-.topnav a {
+#myLinks a {
   color: white;
   padding: 14px 16px;
   text-decoration: white underline;
@@ -38,7 +38,7 @@
   display: block;
   position: absolute;
   /* right: 30px;
-  top: 30px; */
+    top: 30px; */
 }
 
 /* Style the active link (or home/logo) */
@@ -46,7 +46,7 @@
   color: white;
 }
 
-ul {
+#myLinks ul {
   list-style-type: none;
   display: inline-block;
   text-align: center;
@@ -54,28 +54,28 @@ ul {
   /* padding: 0; */
 }
 
-li {
+#myLinks li {
   margin-top: 50px;
 }
 
-ul :last-child {
+#myLinks ul :last-child {
   margin-bottom: 144px;
 }
 
-ul :first-child {
+#myLinks ul :first-child {
   margin-top: 144px;
 }
 
-.topnav img {
+#myLinks img {
   margin-bottom: 20px;
   margin-top: 60px;
 }
 
 /* .Menu {
-  display: flex;
-  justify-content: flex-end;
-  padding: 30px;
-} */
+    display: flex;
+    justify-content: flex-end;
+    padding: 30px;
+  } */
 
 .DropBtn {
   background-color: transparent;
@@ -136,12 +136,12 @@ ul :first-child {
     padding-right: 100px;
   }
 
-  ul a {
+  .topnav ul a {
     color: white;
     text-decoration: none;
   }
 
-  li {
+  .topnav li {
     padding: 5px;
   }
 
