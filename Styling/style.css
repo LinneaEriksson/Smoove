@@ -119,6 +119,10 @@ ul :first-child {
   display: block;
 } */
 
+.MenuWrapper {
+  display: none;
+}
+
 /* body */
 
 .SpaceBetweenFirstBlock {
