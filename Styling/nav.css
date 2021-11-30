@@ -77,10 +77,6 @@
   display: none;
 }
 
-.MenuWrapper {
-  display: none;
-}
-
 .MenuItems {
   display: none;
 }
@@ -102,10 +98,6 @@
     display: flex;
     justify-content: flex-end;
     padding-right: 40px;
-  }
-
-  .MenuWrapper {
-    display: block;
   }
 
   .MenuItems {
