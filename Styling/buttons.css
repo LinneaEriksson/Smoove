@@ -44,7 +44,8 @@
 #TheBlackButton {
   display: flex;
   background-color: black;
-  border: none;
+  outline: 1px;
+  border-color: #e43c79;
   color: white;
   height: 40px;
   width: 40px;
