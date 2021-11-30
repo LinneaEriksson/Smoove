@@ -42,6 +42,7 @@
   margin: 0%;
   padding: 0%;
   border: 0%;
+  display: none;
 }
 
 /* Style navigation menu links */
@@ -84,6 +85,10 @@
   /* Laptop Menu */
 
   .DropBtn {
+    display: none;
+  }
+
+  #myLinks {
     display: none;
   }
 
