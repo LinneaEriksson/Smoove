@@ -73,7 +73,11 @@
   margin-top: 60px;
 }
 
-nav .MenuWrapper {
+#laptopNav {
+  display: none;
+}
+
+.MenuWrapper {
   display: none;
 }
 
@@ -92,13 +96,15 @@ nav .MenuWrapper {
     display: none;
   }
 
-  .MenuWrapper {
-    width: auto;
-    height: auto;
+  #laptopNav {
+    width: 100%;
+    display: block;
     display: flex;
-    justify-content: right;
-    margin-top: 40px;
-    align-items: center;
+    justify-content: flex-end;
+    padding-right: 40px;
+  }
+
+  .MenuWrapper {
     display: block;
   }
 
@@ -108,6 +114,7 @@ nav .MenuWrapper {
     float: none;
     display: inline-block;
     margin-right: 60px;
+    justify-self: flex-end;
   }
 
   .MenuLine {
@@ -124,7 +131,6 @@ nav .MenuWrapper {
     width: 100%;
     font-size: 16px;
     font-family: "abel";
-    /* padding-right: 100px; DEN HÄR GJORDE ETT STORT MELLANRUM, FANNS DET NÅGON ANLEDNING TILL DEN?*/
   }
 
   .MenuItems ul a {
