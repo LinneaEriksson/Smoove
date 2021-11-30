@@ -73,7 +73,7 @@
   margin-top: 60px;
 }
 
-.MenuWrapper {
+nav .MenuWrapper {
   display: none;
 }
 
@@ -127,12 +127,12 @@
     /* padding-right: 100px; DEN HÄR GJORDE ETT STORT MELLANRUM, FANNS DET NÅGON ANLEDNING TILL DEN?*/
   }
 
-  .topnav ul a {
+  .MenuItems ul a {
     color: white;
     text-decoration: none;
   }
 
-  .topnav li {
+  .MenuItems li {
     padding: 5px;
   }
 
