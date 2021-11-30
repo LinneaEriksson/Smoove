@@ -76,7 +76,3 @@ function showSlides(n) {
 // document.getElementById("demo").innerHTML = year;
 
 // test funktion
-
-function OcClick() {
-  location.href = "www.smoovethegroove.netlify.app";
-}
