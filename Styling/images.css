@@ -3,10 +3,10 @@
 .HeadPicture {
   background-image: url("/images/cityscape.jpg");
   width: 100%;
+  height: 100%;
   object-fit: fill;
   margin: 0px;
   background-position: center;
-  /* background-repeat: no-repeat; GÖR DENNA NÅGOT? */
   background-size: cover;
   position: relative;
 }
