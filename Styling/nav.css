@@ -3,6 +3,7 @@
   background-color: transparent;
   display: flex;
   justify-content: space-between;
+  padding: 20px;
 }
 
 /* Style the hamburger menu */
@@ -16,10 +17,11 @@
   background-color: transparent;
   border: none;
   display: block;
-  position: relative;
+  position: absolute;
   right: 0;
   top: 0;
-  cursor: pointer;
+  padding: 20px;
+  cursor: pointer;''
   /* bara temporärt så att man ser va det är klickbart */
 }
 
