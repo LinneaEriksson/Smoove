@@ -60,6 +60,5 @@ footer ul :first-child {
 
   footer ul {
     flex-direction: row;
-    /* align-items: center; */
   }
 }
