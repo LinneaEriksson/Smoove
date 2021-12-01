@@ -60,5 +60,6 @@
   }
   #ChangeColorPictureDesktop {
     display: block;
+    margin: 40px;
   }
 }

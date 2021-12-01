@@ -140,4 +140,34 @@
     /* justify-content: center; */
     margin-top: 10px;
   }
+
+  #TheBlackButton {
+    width: 60px;
+    height: 60px;
+  }
+
+  #TheRedButton {
+    width: 60px;
+    height: 60px;
+  }
+
+  #TheOrangeButton {
+    width: 60px;
+    height: 60px;
+  }
+
+  #ThePurpleButton {
+    width: 60px;
+    height: 60px;
+  }
+
+  #TheGrayButton {
+    width: 60px;
+    height: 60px;
+  }
+
+  #TheWhiteButton {
+    width: 60px;
+    height: 60px;
+  }
 }
