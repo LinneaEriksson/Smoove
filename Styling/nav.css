@@ -1,9 +1,13 @@
-.topBar {
+#topBar {
   width: 100%;
   background-color: transparent;
   display: flex;
   justify-content: space-between;
   padding: 20px;
+}
+
+#topBar.divground {
+  background-color: #161414;
 }
 
 /* Style the hamburger menu */
