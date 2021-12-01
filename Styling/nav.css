@@ -1,4 +1,4 @@
-.topBar {
+#topBar {
   width: 100%;
   background-color: transparent;
   display: flex;
@@ -6,12 +6,16 @@
   padding: 20px;
 }
 
+#topBar.divground {
+  background-color: #161414;
+}
+
 /* Style the hamburger menu */
-.icon {
+/* .icon {
   background-image: url("MenuImages/meny.svg");
   display: block;
   position: absolute;
-}
+} */
 
 .DropBtn {
   background-color: transparent;
