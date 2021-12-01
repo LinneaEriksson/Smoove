@@ -11,11 +11,11 @@
 }
 
 /* Style the hamburger menu */
-.icon {
+/* .icon {
   background-image: url("MenuImages/meny.svg");
   display: block;
   position: absolute;
-}
+} */
 
 .DropBtn {
   background-color: transparent;
