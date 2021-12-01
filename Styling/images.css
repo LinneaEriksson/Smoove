@@ -40,19 +40,38 @@
   display: none;
 }
 
+.PictureOfMerch {
+  display: none;
+}
+
+.PictureOfInterior {
+  width: 100%;
+}
+
 @media screen and (min-width: 700px) {
   .HeadPicture {
     background-image: url("/images/carcityscpefinal2.jpg");
   }
 
   .MainPicture {
-    width: 55%;
+    width: 50%;
     margin: 40px;
   }
 
   .PictureOfCar {
-    width: 55%;
+    width: 50%;
     margin: 40px;
+  }
+
+  .PictureOfMerch {
+    display: block;
+    width: 50%;
+    margin: 40px;
+  }
+
+  .PictureOfInterior {
+    width: 100%;
+    padding-right: 40px;
   }
 
   #ChangeColorPicture {
