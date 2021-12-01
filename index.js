@@ -7,7 +7,7 @@ function myFunction() {
   }
 }
 
-// Functions to change the color of the car.
+// Functions to change the color of the car. MOBILE-VERSION
 
 function PictureChangeBlack() {
   document.getElementById("ChangeColorPicture").src = "images/colors_black.jpg";
@@ -33,6 +33,38 @@ function PictureChangeGray() {
 
 function PictureChangeWhite() {
   document.getElementById("ChangeColorPicture").src = "images/colors_white.jpg";
+}
+
+// Functions to change the color of the car. DESKTOP-VERSION
+
+function PictureChangeBlack() {
+  document.getElementById("ChangeColorPictureDesktop").src =
+    "images/colors_black.jpg";
+}
+
+function PictureChangeRed() {
+  document.getElementById("ChangeColorPictureDesktop").src =
+    "images/colors_red.jpg";
+}
+
+function PictureChangeOrange() {
+  document.getElementById("ChangeColorPictureDesktop").src =
+    "images/colors_orange.jpg";
+}
+
+function PictureChangePurple() {
+  document.getElementById("ChangeColorPictureDesktop").src =
+    "images/colors_purple.jpg";
+}
+
+function PictureChangeGray() {
+  document.getElementById("ChangeColorPictureDesktop").src =
+    "images/colors_gray.jpg";
+}
+
+function PictureChangeWhite() {
+  document.getElementById("ChangeColorPictureDesktop").src =
+    "images/colors_white.jpg";
 }
 
 // Slideshow

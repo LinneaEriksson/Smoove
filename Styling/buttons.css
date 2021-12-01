@@ -41,6 +41,10 @@
   margin-top: 10px;
 }
 
+.ButtonInlineDesktop {
+  display: none;
+}
+
 #TheBlackButton {
   display: flex;
   background-color: black;
@@ -129,5 +133,11 @@
 @media screen and (min-width: 700px) {
   .ButtonInline {
     display: none;
+  }
+  .ButtonInlineDesktop {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    margin-top: 10px;
   }
 }
