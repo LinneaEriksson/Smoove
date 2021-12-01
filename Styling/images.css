@@ -5,13 +5,19 @@
   width: 100%;
   height: 100%;
   object-fit: fill;
-  margin: 0px;
   background-position: center;
   background-size: cover;
   position: relative;
+  margin: 0px;
+  margin-bottom: 150px;
 }
 
 .MainPicture {
+  width: 100%;
+  margin: 0px;
+}
+
+.PictureOfCar {
   width: 100%;
   margin: 0px;
 }
@@ -36,6 +42,11 @@
   }
 
   .MainPicture {
+    width: 55%;
+    margin: 40px;
+  }
+
+  .PictureOfCar {
     width: 55%;
     margin: 40px;
   }

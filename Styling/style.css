@@ -48,6 +48,18 @@ body {
   padding-left: 20px;
 }
 
+.FirstSectionText {
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding-top: 100px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
 @media screen and (min-width: 700px) {
   .ButtonsAndText {
     flex-direction: row;
@@ -74,8 +86,9 @@ body {
     display: flex;
   }
 
-  .SpaceBetween {
-    width: 486px;
+  .FirstSectionText {
+    width: 40%;
+    padding-left: 0px;
   }
 }
 /* body */
