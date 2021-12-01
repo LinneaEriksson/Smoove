@@ -178,6 +178,12 @@ h3 {
     font-size: 48px;
   }
 
+  h4 {
+    font-size: 72px;
+    font-family: "abel";
+    color: #e43c79;
+  }
+
   .BreadText {
     font-size: 36px;
   }

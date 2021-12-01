@@ -36,6 +36,10 @@ body {
   display: none;
 }
 
+.JoinTheSmoovement {
+  display: none;
+}
+
 @media screen and (min-width: 700px) {
   .ButtonsAndText {
     flex-direction: row;
@@ -64,6 +68,16 @@ body {
 
   .slideshow-container {
     margin-top: 50px;
+  }
+
+  .JoinTheSmoovementContainer {
+    display: flex;
+    padding: 40px;
+    justify-content: space-between;
+  }
+
+  .JoinTheSmoovement {
+    display: block;
   }
 }
 /* body */
