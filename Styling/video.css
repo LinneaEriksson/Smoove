@@ -1,0 +1,25 @@
+.MyVideo {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+video {
+  width: 300px;
+  height: 0;
+}
+
+/* .video {
+  height: 330px;
+  width: 600px;
+  margin-bottom: 50px;
+}
+
+video::-webkit-media-controls {
+  height: inherit;
+  position: relative;
+  display: flex !important;
+  align-items: flex-start;
+  justify-content: flex-end;
+  flex-direction: column;
+} */
