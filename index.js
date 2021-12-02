@@ -41,32 +41,32 @@ function PictureChangeWhite() {
 
 // Functions to change the color of the car. DESKTOP-VERSION
 
-function PictureChangeBlack() {
+function PictureChangeBlackDesktop() {
   document.getElementById("ChangeColorPictureDesktop").src =
     "images/colors_black.jpg";
 }
 
-function PictureChangeRed() {
+function PictureChangeRedDesktop() {
   document.getElementById("ChangeColorPictureDesktop").src =
     "images/colors_red.jpg";
 }
 
-function PictureChangeOrange() {
+function PictureChangeOrangeDesktop() {
   document.getElementById("ChangeColorPictureDesktop").src =
     "images/colors_orange.jpg";
 }
 
-function PictureChangePurple() {
+function PictureChangePurpleDesktop() {
   document.getElementById("ChangeColorPictureDesktop").src =
     "images/colors_purple.jpg";
 }
 
-function PictureChangeGray() {
+function PictureChangeGrayDesktop() {
   document.getElementById("ChangeColorPictureDesktop").src =
     "images/colors_gray.jpg";
 }
 
-function PictureChangeWhite() {
+function PictureChangeWhiteDesktop() {
   document.getElementById("ChangeColorPictureDesktop").src =
     "images/colors_white.jpg";
 }
