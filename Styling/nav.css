@@ -11,11 +11,6 @@
 }
 
 /* Style the hamburger menu */
-/* .icon {
-  background-image: url("MenuImages/meny.svg");
-  display: block;
-  position: absolute;
-} */
 
 .DropButton {
   background-color: transparent;
@@ -85,10 +80,22 @@
   display: none;
 }
 
+.LaptopLogga {
+  display: none;
+}
+
 @media screen and (min-width: 700px) {
   /* Laptop Menu */
 
+  .TopBar {
+    display: none;
+  }
+
   .DropButton {
+    display: none;
+  }
+
+  .Logo {
     display: none;
   }
 
@@ -98,10 +105,16 @@
 
   #LaptopNav {
     width: 100%;
-    display: block;
+    /* display: block; */
     display: flex;
     justify-content: flex-end;
     padding-right: 40px;
+  }
+
+  .LaptopLogga {
+    display: block;
+    justify-self: flex-start;
+    margin-left: 10px;
   }
 
   .MenuItems {
