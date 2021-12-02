@@ -71,14 +71,18 @@ footer ul :first-child {
     color: #e43c79;
   }
 
+  footer a {
+    text-decoration: none;
+  }
+
   footer ul {
     flex-direction: row;
   }
 
   .FooterLogo {
     width: 520px;
-    margin-top: 150px;
-    margin-bottom: 150px;
+    margin-top: 180px;
+    margin-bottom: 180px;
   }
 
   .FooterMedia {

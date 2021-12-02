@@ -58,6 +58,7 @@
   .HeadPicture {
     background-image: url("/images/CityDesktop.png");
     height: 800px;
+    margin-bottom: 160px;
   }
 
   .MainPicture {
@@ -66,7 +67,7 @@
   }
 
   .PictureOfCar {
-    width: 50%;
+    width: 55%;
     margin: 40px;
   }
 
