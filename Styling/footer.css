@@ -52,7 +52,7 @@ footer ul :first-child {
 }
 
 /*  Laptop footer */
-@media screen and (min-width: 540px) {
+@media screen and (min-width: 700px) {
   footer ul :first-child {
     margin-top: 50px;
   }
