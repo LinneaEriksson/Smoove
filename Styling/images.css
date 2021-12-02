@@ -49,6 +49,10 @@
   width: 100%;
 }
 
+.MobileLogo {
+  width: 83px;
+}
+
 @media screen and (min-width: 700px) {
   .HeadPicture {
     background-image: url("/images/CityDesktop.png");
@@ -88,5 +92,9 @@
   .DesktopLogo {
     width: 150px;
     padding-left: 40px;
+  }
+
+  .MobileLogo {
+    display: none;
   }
 }
