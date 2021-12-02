@@ -78,4 +78,8 @@ footer ul :first-child {
     margin-top: 150px;
     margin-bottom: 150px;
   }
+
+  .FooterMedia {
+    padding-bottom: 80px;
+  }
 }
