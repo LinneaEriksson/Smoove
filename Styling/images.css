@@ -52,6 +52,7 @@
 @media screen and (min-width: 700px) {
   .HeadPicture {
     background-image: url("/images/CityDesktop.png");
+    height: 800px;
   }
 
   .MainPicture {
