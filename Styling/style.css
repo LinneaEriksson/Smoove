@@ -73,6 +73,8 @@ body {
   .JoinTheSmoovementContainer {
     display: flex;
     padding: 40px;
+    padding-top: 0px;
+    margin-top: 120px;
     justify-content: space-between;
   }
 
