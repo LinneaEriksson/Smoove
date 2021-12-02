@@ -44,7 +44,7 @@ footer ul :first-child {
 }
 
 .FooterLogo {
-  margin: auto;
+  margin-left: 12%;
   width: 200px;
 }
 
