@@ -216,6 +216,11 @@ h3 {
     width: 40%;
     padding-left: 0px;
     padding-right: 40px;
+    padding-top: 20px;
+  }
+
+  .FirstSectionText .BreadText {
+    padding-bottom: 20px;
   }
 
   .SecondSectionText {
