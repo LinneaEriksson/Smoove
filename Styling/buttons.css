@@ -160,30 +160,36 @@
   .TheBlackButton {
     width: 60px;
     height: 60px;
+    margin-bottom: 0px;
   }
 
   .TheRedButton {
     width: 60px;
     height: 60px;
+    margin-bottom: 0px;
   }
 
   .TheOrangeButton {
     width: 60px;
     height: 60px;
+    margin-bottom: 0px;
   }
 
   .ThePurpleButton {
     width: 60px;
     height: 60px;
+    margin-bottom: 0px;
   }
 
   .TheGrayButton {
     width: 60px;
     height: 60px;
+    margin-bottom: 0px;
   }
 
   .TheWhiteButton {
     width: 60px;
     height: 60px;
+    margin-bottom: 0px;
   }
 }
