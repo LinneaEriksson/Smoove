@@ -78,8 +78,9 @@
   }
 
   .PictureOfInterior {
-    width: 100%;
+    width: 120%;
     padding-right: 40px;
+    margin-top: 160px;
   }
 
   #ChangeColorPicture {
@@ -87,7 +88,7 @@
   }
   #ChangeColorPictureDesktop {
     display: block;
-    width: 100%;
+    width: 110%;
     margin: 40px;
     margin-top: 40px;
   }
