@@ -73,6 +73,7 @@ footer ul :first-child {
 
   .FooterImage {
     display: block;
+    width: 520px;
     margin: auto;
     margin-top: 150px;
     margin-bottom: 150px;
