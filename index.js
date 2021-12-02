@@ -11,6 +11,12 @@ function MyFunction() {
   }
 }
 
+// forn
+
+function form() {
+  document.getElementById("myForm").reset();
+}
+
 // Functions to change the color of the car. MOBILE-VERSION
 
 function PictureChangeBlack() {
