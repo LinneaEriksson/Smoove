@@ -239,7 +239,8 @@ h3 {
     width: 40%;
     padding-left: 0px;
     padding-left: 40px;
-    padding-top: 120px;
+    padding-top: 0px;
+    margin-top: 160px;
   }
 
   .FourthSectionText {

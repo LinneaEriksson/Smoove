@@ -10,6 +10,7 @@
   .MyVideo {
     width: 60%;
     padding: 40px;
+    margin-top: 100px;
     justify-content: flex-end;
   }
 }
