@@ -9,7 +9,7 @@
 @media screen and (min-width: 700px) {
   .MyVideo {
     width: 60%;
-    /* padding: 40px; */
+    padding: 40px;
     justify-content: flex-end;
   }
 }
