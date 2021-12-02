@@ -9,7 +9,6 @@ footer {
   color: white;
   text-align: center;
   width: 100%;
-  /* text-decoration: white underline; DENNA GÖR ATT DET BLIR TVÅ UNDERLINES! */
   text-decoration-color: white;
   z-index: 1;
   position: relative;

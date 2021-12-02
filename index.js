@@ -13,8 +13,8 @@ function MyFunction() {
 
 // forn
 
-function form() {
-  document.getElementById("myForm").reset();
+function FormFunction() {
+  document.getElementById("MyForm").reset();
 }
 
 // Functions to change the color of the car. MOBILE-VERSION
@@ -110,11 +110,3 @@ function showSlides(n) {
   // }
   slides[slideIndex - 1].style.display = "block";
 }
-
-// year
-
-// const d = new Date();
-// let year = d.getFullYear();
-// document.getElementById("demo").innerHTML = year;
-
-// test funktion

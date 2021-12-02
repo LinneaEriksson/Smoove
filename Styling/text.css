@@ -7,15 +7,6 @@ h1 {
   font-weight: 400;
 }
 
-.TextOnPicture {
-  color: #e43c79;
-  font-size: 14px;
-  margin-bottom: 0px;
-  font-family: "Abel", sans-serif;
-  text-align: center;
-  padding-bottom: 20px;
-}
-
 h2 {
   color: white;
   font-family: "Gruppo", cursive;
@@ -30,6 +21,15 @@ h3 {
   margin-bottom: 0px;
   font-family: "Gruppo", cursive;
   padding-bottom: 60px;
+}
+
+.TextOnPicture {
+  color: #e43c79;
+  font-size: 14px;
+  margin-bottom: 0px;
+  font-family: "Abel", sans-serif;
+  text-align: center;
+  padding-bottom: 20px;
 }
 
 .BreadText {
@@ -76,14 +76,6 @@ h3 {
   margin-top: 100px;
   padding-bottom: 100px;
 }
-
-/* about and contact */
-
-.about {
-  text-align: center;
-}
-
-/* Footer */
 
 .LineBetweenDesktop {
   display: none;

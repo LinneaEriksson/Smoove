@@ -45,7 +45,7 @@
   display: none;
 }
 
-#TheBlackButton {
+.TheBlackButton {
   display: flex;
   background-color: black;
   outline: 1px;
@@ -60,7 +60,7 @@
     0px 8px 8px rgba(0, 0, 0, 0.1);
 }
 
-#TheRedButton {
+.TheRedButton {
   display: flex;
   background-color: #760000;
   border: none;
@@ -74,7 +74,7 @@
     0px 8px 8px rgba(0, 0, 0, 0.1);
 }
 
-#TheOrangeButton {
+.TheOrangeButton {
   display: flex;
   background-color: #e24c00;
   border: none;
@@ -88,7 +88,7 @@
     0px 8px 8px rgba(0, 0, 0, 0.1);
 }
 
-#ThePurpleButton {
+.ThePurpleButton {
   display: flex;
   background-color: #ae7cff;
   border: none;
@@ -102,7 +102,7 @@
     0px 8px 8px rgba(0, 0, 0, 0.1);
 }
 
-#TheGrayButton {
+.TheGrayButton {
   display: flex;
   background-color: #7a7975;
   border: none;
@@ -116,7 +116,7 @@
     0px 8px 8px rgba(0, 0, 0, 0.1);
 }
 
-#TheWhiteButton {
+.TheWhiteButton {
   display: flex;
   background-color: #ddd6ca;
   border: none;
@@ -157,32 +157,32 @@
     margin-top: 10px;
   }
 
-  #TheBlackButton {
+  .TheBlackButton {
     width: 60px;
     height: 60px;
   }
 
-  #TheRedButton {
+  .TheRedButton {
     width: 60px;
     height: 60px;
   }
 
-  #TheOrangeButton {
+  .TheOrangeButton {
     width: 60px;
     height: 60px;
   }
 
-  #ThePurpleButton {
+  .ThePurpleButton {
     width: 60px;
     height: 60px;
   }
 
-  #TheGrayButton {
+  .TheGrayButton {
     width: 60px;
     height: 60px;
   }
 
-  #TheWhiteButton {
+  .TheWhiteButton {
     width: 60px;
     height: 60px;
   }

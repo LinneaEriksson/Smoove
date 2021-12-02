@@ -1,5 +1,5 @@
 #TopBar {
-  width: 100%;
+  width: 50%;
   background-color: transparent;
   display: flex;
   justify-content: space-between;
@@ -109,7 +109,7 @@
     height: auto;
     float: none;
     display: inline-block;
-    margin-right: 60px;
+    margin-right: 10px;
     justify-self: flex-end;
   }
 
