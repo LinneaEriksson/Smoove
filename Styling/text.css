@@ -12,7 +12,7 @@ h2 {
   font-family: "Gruppo", cursive;
   font-size: 48px;
   display: flex;
-  padding-bottom: 40px;
+  padding-bottom: 48px;
 }
 
 h3 {
@@ -20,7 +20,7 @@ h3 {
   font-size: 36px;
   margin-bottom: 0px;
   font-family: "Gruppo", cursive;
-  padding-bottom: 60px;
+  padding-bottom: 48px;
 }
 
 .TextOnPicture {
@@ -87,8 +87,7 @@ h3 {
   width: 100%;
   height: 100%;
   margin: 0px;
-  padding-top: 100px;
-  padding-bottom: 20px;
+  margin-top: 80px;
   padding-right: 20px;
   padding-left: 20px;
 }
@@ -110,7 +109,7 @@ h3 {
   width: 100%;
   height: 100%;
   margin: 0px;
-  padding-top: 30px;
+  padding-top: 50px;
   padding-right: 20px;
   padding-left: 20px;
 }
@@ -121,9 +120,10 @@ h3 {
   width: 100%;
   height: 100%;
   margin: 0px;
-  padding-top: 40px;
+  padding-top: 80px;
   padding-right: 20px;
   padding-left: 20px;
+  margin-bottom: 32px;
 }
 
 .FifthSectionText {
@@ -132,7 +132,7 @@ h3 {
   width: 100%;
   height: 100%;
   margin: 0px;
-  padding-top: 60px;
+  padding-top: 80px;
   padding-right: 20px;
   padding-left: 20px;
 }
@@ -147,7 +147,7 @@ h3 {
 
 .MatchWithMerch {
   padding-top: 80px;
-  padding-bottom: 50px;
+  padding-bottom: 0px;
   padding-left: 19px;
   padding-right: 19px;
 }
@@ -168,6 +168,7 @@ h3 {
 
   h3 {
     font-size: 48px;
+    padding-bottom: 80px;
   }
 
   h4 {
@@ -214,6 +215,7 @@ h3 {
   }
 
   .FirstSectionText {
+    margin-top: 0px;
     width: 40%;
     padding-left: 0px;
     padding-right: 40px;
