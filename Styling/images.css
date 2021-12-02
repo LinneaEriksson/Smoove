@@ -42,7 +42,8 @@
 }
 
 .PictureOfMerch {
-  display: none;
+  width: 100%;
+  margin-bottom: 80px;
 }
 
 .PictureOfInterior {
