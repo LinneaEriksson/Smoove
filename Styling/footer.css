@@ -38,9 +38,12 @@ footer ul :first-child {
   margin-top: 144px;
 }
 
-.footermedia img {
+.FooterMedia img {
   margin-bottom: 20px;
   margin-top: 40px;
+}
+.FooterMedia {
+  padding-bottom: 80px;
 }
 
 .FooterLogo {
