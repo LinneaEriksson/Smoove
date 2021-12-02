@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="Styling/footer.css" />
     <link rel="stylesheet" href="Styling/nav.css" />
     <link rel="stylesheet" href="Styling/slideshow.css">
+    <link rel="stylesheet" href="Styling/video.css">
 
     <!-- Gruppo & Abel font -->
 
@@ -26,16 +27,14 @@
 
 
     <section class="HeadPicture">
-      <div id="topBar">
-        <div href="#home" class="logo">Logo</div>
+      <div id="TopBar">
+        <div href="#home" class="Logo">Logo</div>
         
-        <button  onclick="myFunction()" class="DropBtn"><img src="/MenuImages/meny.svg"></button>
-      <!-- eventlisteners ist för onclick -->
+        <button  onclick="MyFunction()" class="DropButton"><img src="/MenuImages/meny.svg"></button>
       </div>
       
-      <!-- Desktop-Menu-->
-      <nav class="topnav" id="myLinks">
-        <!-- <div id="myLinks"> -->
+      <!-- Mobile-Menu-->
+      <nav class="TopNav" id="MyLinks">
           <ul>
             <li><a href="#specifics">SPECIFICS</a></li>
             <li><a href="#exterior">EXTERIOR</a></li>
@@ -45,10 +44,10 @@
           <p>CONTACT</p>
           <img src="/MenuImages/media_icons.svg" alt="facebook logo, instagram logo, twitter logo">
       </nav>
-          <!-- </div> -->
+        
           
-          <!-- Laptop-Menu -->
-          <nav id="laptopNav">
+          <!-- Desktop-Menu -->
+          <nav id="LaptopNav">
             <div class="MenuItems">
               <ul>
                 <li><a href="#specifics">SPECIFICS</a></li>
@@ -69,9 +68,9 @@
   <p class="TextOnPicture">Sign up today and receive early access <br class="LineBreak"> & 10% off</p>
   </div>
   <div class="ButtonsAndTextDesktopUse">
-    <form id="myForm">
+    <form id="MyForm">
       <input type="email" name="email" id="email" class="Email" placeholder="Enter Email">
-  <button class="Join" onclick="myFunction()" value="Reset form">Join</button>
+  <button class="Join" onclick="FormFunction()" value="Reset form">Join</button>
  </div>
   </div>
   </section>
@@ -148,7 +147,7 @@
     </article>
 <!-- VIDEO -->
 <div class="MyVideo">
-  <video autoplay muted loop id="myVideo" width="370">
+  <video autoplay muted loop id="myVideo">
     <source src="/images/blyat000.mov" type="video/mp4">
   </video>
 </div>

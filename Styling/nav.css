@@ -1,4 +1,4 @@
-#topBar {
+#TopBar {
   width: 100%;
   background-color: transparent;
   display: flex;
@@ -6,7 +6,7 @@
   padding: 20px;
 }
 
-#topBar.divground {
+#TopBar.Divground {
   background-color: #161414;
 }
 
@@ -17,7 +17,7 @@
   position: absolute;
 } */
 
-.DropBtn {
+.DropButton {
   background-color: transparent;
   border: none;
   display: block;
@@ -30,14 +30,14 @@
 }
 
 /* Style the active link (or home/logo) */
-.logo {
+.Logo {
   color: white;
 }
 
 /* nav and dropdown-menu */
 
 /* Hide the links inside the navigation menu (except for logo/home) */
-#myLinks {
+#MyLinks {
   text-align: center;
   color: white;
   text-decoration: white underline;
@@ -50,34 +50,34 @@
 }
 
 /* Style navigation menu links */
-#myLinks a {
+#MyLinks a {
   color: white;
   font-size: 17px;
 }
 
-#myLinks ul {
+#MyLinks ul {
   list-style-type: none;
   padding: 0;
 }
 
-#myLinks li {
+#MyLinks li {
   margin-top: 50px;
 }
 
-#myLinks ul :last-child {
+#MyLinks ul :last-child {
   margin-bottom: 144px;
 }
 
-#myLinks ul :first-child {
+#MyLinks ul :first-child {
   margin-top: 144px;
 }
 
-#myLinks img {
+#MyLinks img {
   margin-bottom: 20px;
   margin-top: 60px;
 }
 
-#laptopNav {
+#LaptopNav {
   display: none;
 }
 
@@ -88,15 +88,15 @@
 @media screen and (min-width: 700px) {
   /* Laptop Menu */
 
-  .DropBtn {
+  .DropButton {
     display: none;
   }
 
-  #myLinks {
+  #MyLinks {
     display: none;
   }
 
-  #laptopNav {
+  #LaptopNav {
     width: 100%;
     display: block;
     display: flex;

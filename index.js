@@ -1,9 +1,9 @@
 // navbar functions
 
-function myFunction() {
-  let element = document.getElementById("topBar");
-  element.classList.toggle("divground");
-  var x = document.getElementById("myLinks");
+function MyFunction() {
+  let element = document.getElementById("TopBar");
+  element.classList.toggle("Divground");
+  var x = document.getElementById("MyLinks");
   if (x.style.display === "block") {
     x.style.display = "none";
   } else {
