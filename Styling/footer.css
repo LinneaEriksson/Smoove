@@ -43,6 +43,10 @@ footer ul :first-child {
   margin-top: 40px;
 }
 
+.FooterImage {
+  display: none;
+}
+
 /*  Laptop footer */
 @media screen and (min-width: 540px) {
   footer ul :first-child {
@@ -65,5 +69,12 @@ footer ul :first-child {
 
   footer ul {
     flex-direction: row;
+  }
+
+  .FooterImage {
+    display: block;
+    margin: auto;
+    margin-top: 150px;
+    margin-bottom: 150px;
   }
 }
