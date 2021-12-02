@@ -1,7 +1,7 @@
 /* nav background img */
 
 .HeadPicture {
-  background-image: url("/images/cityscape.jpg");
+  background-image: url("/images/CityMobile.png");
   width: 100%;
   height: 100%;
   object-fit: fill;
@@ -51,7 +51,7 @@
 
 @media screen and (min-width: 700px) {
   .HeadPicture {
-    background-image: url("/images/carcityscpefinal2.jpg");
+    background-image: url("/images/CityDesktop.png");
   }
 
   .MainPicture {
@@ -80,6 +80,7 @@
   }
   #ChangeColorPictureDesktop {
     display: block;
+    width: 100%;
     margin: 40px;
   }
 }
