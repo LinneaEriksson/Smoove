@@ -105,9 +105,9 @@
 
   #LaptopNav {
     width: 100%;
-    /* display: block; */
+    /* display: inline-block; */
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     padding-right: 40px;
   }
 
@@ -115,6 +115,8 @@
     display: block;
     justify-self: flex-start;
     margin-left: 10px;
+    width: 100%;
+    height: auto;
   }
 
   .MenuItems {
