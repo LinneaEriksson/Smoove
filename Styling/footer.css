@@ -43,8 +43,9 @@ footer ul :first-child {
   margin-top: 40px;
 }
 
-.FooterImage {
-  display: none;
+.FooterLogo {
+  margin: auto;
+  width: 200px;
 }
 
 /*  Laptop footer */
@@ -71,10 +72,8 @@ footer ul :first-child {
     flex-direction: row;
   }
 
-  .FooterImage {
-    display: block;
+  .FooterLogo {
     width: 520px;
-    margin: auto;
     margin-top: 150px;
     margin-bottom: 150px;
   }
